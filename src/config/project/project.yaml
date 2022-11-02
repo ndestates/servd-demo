@@ -1,8 +1,14 @@
-dateModified: 1612526594
+dateModified: 1667387407
 email:
-  fromEmail: fake@fake-email-address.com
+  fromEmail: fake@fake.email.com
   fromName: 'Servd Demo'
-  transportType: craft\mail\transportadapters\Sendmail
+  replyToEmail: null
+  template: null
+  transportSettings:
+    password: fake
+    timeout: '10'
+    username: fake
+  transportType: craft\mail\transportadapters\Gmail
 graphql:
   publicToken:
     enabled: false
